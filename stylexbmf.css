@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html
+{
+  background-color: #fefefe
+}
+
+
+body
+{
+  margin: 2em auto;
+  max-width:800px;
+  line-height:1.6;
+  font-size:16px;
+  color:#454545;
+  padding:1em;
+  text-align: justify;
+  font-family: Open sans, Arial, Sans serif;
+}
+
+
+h1,h2,h3
+{
+  line-height: 1.2;
+}
+
+
+.mfw
+{
+  color: #117e69;
+}
+
+.wrong
+{
+  color: #800;
+  text-decoration: underline;
+}
+
+
+small
+{
+  font-size: 0.4em;
+}
+
+
+.rainbow
+{
+
+}
+
+.blue
+{
+  color: #00e;
+}
+
+.violet
+{
+  color: #551a8b;
+}
+
+a
+{
+  color: #0077aa;
+}
+
+
+ul li img
+{
+  height: 1em
+}
+
+
+
+span.carreun {
+    color: #444;
+    font-weight: 700
+}
+
+span.carreun:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #444
+}
+
+span.carredeux {
+    color: #454545;
+    font-weight: 700
+}
+
+span.carredeux:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #454545
+}
