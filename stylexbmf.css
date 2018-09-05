@@ -100,3 +100,79 @@ span.carredeux:before {
     margin-right: .2em;
     background-color: #454545
 }
+
+div img
+{
+  width: 20em;
+
+
+}
+
+.container
+{
+  width: 800px;
+  height: 17em;
+  clear: both;
+  border: solid green;
+}
+
+
+.imggauche
+{
+  float: left;
+  width: 21em ;
+  border: solid red;
+  margin: auto;
+  clear: right;
+}
+
+.txtdroit
+{
+  float: right;
+  border: solid blue;
+  width: 27em;
+}
+
+.legende
+{
+  font-size: .7em;
+}
+
+blockquote::before
+{
+  content: open-quote;
+  font-size: 3em;
+  margin-right: .2em;
+  margin-left: 0;
+}
+
+Author
+{
+  font-size: 0.6em
+}
+
+
+.imgkopimi
+{
+  width: 1em;
+  height: auto;
+  margin-left: 50%;
+}
+
+a:link
+{
+  color: pink;
+}
+
+
+a:visited
+{
+ color: gray;
+}
+
+
+
+a:hover
+{
+  color: red;
+}
