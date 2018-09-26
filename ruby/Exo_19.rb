@@ -1,10 +1,9 @@
-puts "Bonjour, c'est quoi ton prénom ?"
-print "> "
-user_first_name = gets.chomp
+1.upto(50) do |i|
+  if
+    i % 2 == 0
+  puts "jean.dupont.#{i}@email.fr"
+  end
+end
 
-puts "Et ton nom ?"
-print "> "
-user_last_name = gets.chomp
 
-
-puts "Bonjour #{user_first_name} #{user_last_name} !"
+#pas réussi à forcer l'affichage de deux chiffres pour i
