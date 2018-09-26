@@ -22,5 +22,6 @@ Suivant l'énoncé, affiche en ordre décroissant en fonction du nombre n choisi
 
 x.to_i.downto(1).each{|n| puts ("#" * n).ljust(x.to_i)}
 
+Possibilité avec ce code de faire démarrer à gauche ou à droite avec la méthode ljust (gauche) ou rjust (droite)
 
 =end

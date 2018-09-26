@@ -9,3 +9,8 @@ https://victorhebdo.github.io/javascript/index-js.html
 
 
 Egalement on trouve un dossier ruby avec les 20 exercices et celui de la pyramide
+
+
+et le lien vers mon repository :
+
+https://github.com/victorhebdo/victorhebdo.github.io
