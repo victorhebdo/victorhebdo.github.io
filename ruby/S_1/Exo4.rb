@@ -35,7 +35,11 @@ def stairs
     puts "Vous descendez d'une marche"
 
     i = i - 1
+    if i < 0
+      i=0
+    end
     puts "Vous êtes sur la marche n°#{i}"
+
 
   else
     puts "Rien ne se passe"
