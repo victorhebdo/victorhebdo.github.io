@@ -1,219 +1,90 @@
+########## ARRAY ##########
+# Création de l'array des comptes @Twitter dans une méthode.
+def journalistes
+	@twitter = ["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellombart","@bendarag","@AurelieLebelle","@julienduffe","@thomaspoupeau","@LilyRossignol","@ClairGuedon","@stephanieauguy","@claw_prolongeau","@_JulieMenard","@LColcomb","@Zlauwereys","@MeLonguet","@DorotheeLN","@NolwennCosson","@ADaboval","@Remibaldy","@bderveaux","@amandechap","@ELODIESOULIE","@nbongarcon","@HeloAb","@Panamorama","@gregplou","@BenoitBerthe","@LauraBruneau89","@Anthony_Lieures","@Sharonwaj","@mcsonkin","@pverduzier","@emiliel3","@Julien_MARION","@SophiFay","@bdelombre","@annalecerf","@AdriaBudry","@DejNikolic","@iJaffre","@CyrusleVirus","@GPardigon","@e_vallerey","@IsabelleSouquet","@AudeDavidRossi","@Yoann_Pa","@CeliaPenavaire","@perraultvincent","@cboulate","@JustineWeyl","@Paulinejacot","@juliechab","@aslechevallier","@phnou","@Seb_Pommier","@Alex_Bensaid","@GuillaumeGaven","@annelaurechouin","@Oliviader","@guerricp","@JMMarchaut","@cyceron","@gregory_raymond","@vhunsinger","@l_peillon","@fannyguinochet","@EAssayag","@KibweAdom","@YvonHerry","@JohanGarciajg","@saidlabidi","@lauranneprov","@LeaDavy","@francois_remy","@CGuicheteau","@FloMaillet","@m_perroud","@oBrunet_TSMF","@MoonVdc","@jc2taille","@NellyMoussu","@VirginK","@b_misa","@FabriceCouste","@barbara_prose","@lelia2m","@brunoaskenazi","@laurenechamp","@ysisbox","@juliengagliardi","@PierreLel","@kdeniau","@_TerraInc","@DominicArpin","@antoinfonteneau","@nanotousch","@jb_roch","@YaniKhezzar","@Anne_Bechet","@NCapart","@SamyBenNaceur","@Joumany","@Julietteraynal","@TGiraudet","@SaraTanit","@HappeFrederic","@antoinellorca","@michelpicot","@Sev_Ryne","@bobdobolino","@murdever","@YGrandmontagne","@Mnyo","@EdKOSCIANSKI","@tnoisette","@jankari","@delbello_rom","@rflechaux","@NadiaSorelli","@IT_Digital","@abarbaux","@PhilippeLeroy","@schaptal","@marionspee","@lisavignoli","@ChloeAeberhardt","@MartineJacot","@JuliaPascualita","@curieusedetout","@sgraveleau","@bif_o","@ElisaPineau","@zinebdryef","@apiquard","@pierrehaski","@StephanieDelmas","@Blandine_Garot","@vergara_i","@evan_lebastard","@SophieVclt","@OlivierLevrault","@alicedorgeval","@LouiseMalnoy","@alix_fx","@pierre_baudis","@LucMagoutier","@AgatheMuller","@SGianninelli","@PaulineBoyer33","@NaomiHalll","@romaindlx","@marionbr","@Burtschy","@JacobEtienne","@as_lizzani","@marie_simon","@LaureDaussy","@FabriceAmedeo","@LoubnaChlaikhy","@PlummerWilliam","@OlivierMarin1","@alaurefremont","@mwesfreid","@ChBaDe","@pmathon","@theobaldmarie","@Lnpagesy","@marclandre","@paoliniesther","@Feertchak","@JBLitzler","@GuillaumeErrard","@quentinperinel","@TristanQM","@mlbo","@constancejamet","@LoraTerrazas","@emiliegeffray","@Mathilde_Sd","@CaroPiquet","@DCanivez","@TIM_7375","@blandinelc","@ivanrioufol","@arthurberdah","@SarahLecoeuvre","@guillaume_gui","@DamienMercereau","@W_Chloe","@Assma_MD","@EugenieBastie","@HiTech_lexpress","@bcondominas","@Laurie_Z_","@jeanfrancgerard","@MathieuPagura","@BGUYF","@AlainPiffaretti","@AudreyKucinskas","@julienhory","@Pierrefalga","@TiphThuillier","@cdaniez","@LigerBaptiste","@D_Peras","@julie_dlb","@Fatiha_Temmouri","@julian2lamancha","@GaetaneDeljurie","@JulianMattei","@M_Vicuna","@DeBruynOlivier","@Nehed_Jendoubi","@antoine_grenapi","@ColonnaGen","@VictoriaGairin","@Clement_Lacombe","@TVigoureux","@MargauxObriot","@solinedelos","@RocheSabine","@dangerkens","@EdouardDutour","@MDondeyne","@DupuisNathalie1","@bouscarel","@Mathieu2jean","@Sophie_T_J","@laurentcalixte","@patrockwilliams","@PascaleKremer","@AlexJaquin","@LauraIsaaz","@cath_robin","@Del_Gautherin","@Isaduriez","@lucietuile","@AugeyBastien","@mcastagnet","@AminaKalache","@mvaudano","@CParrot","@ombelinetips","@_JoinLion","@BarbolosiRose","@ToiBruno1","@FloraClodic","@xjbdx","@AlexiaEy","@Emjy_STARK","@elcoco01","@rabilebon","@pflovens_","@FabriceFrossard","@MorganeSERRES","@MarjolaineKoch","@edgarsnow","@SRNLF","@CChassigneux","@KerinecMoran","@NassiraELM","@NewsRicard","@Sandreene","@Emilezrt","@Pierre_Do","@Micode","@CColumelli","@DavidAbiker","@ClementBergantz","@benjaminrabier","@celinekallmann","@edwyplenel","@C_Barbier","@JJBourdin_RMC","@LaurenceFerrari","@aslapix","@IsaMillet","@MaximeSwitek","@tomjoubert","@jszanchi","@roqueeva","@XavierBiseul","@florencesantrot","@AntoineCrochet","@freeman59","@MaudeML","@philippe_gulpi","@mathieum76","@kiouari","@imanemoustakir","@BenedicteMallet","@Emilie_Brouze","@antoinebarret","@_nicolasbocquet","@remibuhagiar","@CourretB","@AymericRobert","@miraelmartins","@pmaniere","@jesuisraphk","@David_Ingram","@pcelerier","@technomedia","@Geraldinedauver","@ThierryLabro","@Newsdusud","@nrauline","@gbregeras","@SCouasnonBFM","@actualites_nrv","@dimitrimoulins","@oli_aura","@FabieChiche","@Vincent_Raimblt","@ChristophGreuet","@PAlbuchay","@MarrauddesGrot","@vtalmon","@cedric","@olivierfrigara","@Julien_Jay","@LydiaBerroyer","@Shuua","@datisdaz","@Steuph","@ameliecharnay","@Bruno_LesNums","@LelloucheNico","@CciliaDiQuinzio","@Elodie_C","@SylvRolland","@Kocobe","@FL_Debes","@jdupontcalbo","@GarciaVictor_","@NicoRichaud","@RHoueix","@simottel","@DamienLicata","@annabelle_L","@Lea_Lejeune","@axel_deb","@marin_eben","@ptiberry","@MatthieuDelach","@sandrinecassini","@benjaminferran","@ppgarcia75","@NotPatrick","@ivalerio","@FabienneSchmitt","@alexgoude","@JeromeColombain","@manhack","@Capucine_Cousin","@Fsorel","@oliviertesquet","@marjoriepaillon","@ginades","@PierreTran","@DelphineCuny","@reesmarc","@lauratenoudji","@ldupin","@carolinedescham","@Lucile_Quillet","@cgabizon","@Allocab","@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
 
-
-###################################################################################################
-#####################################  variables d'entrés #########################################
-###################################################################################################
-
-
-# désolé pour le nom de la première méthode... mais ça nous a fait rire de notre côté...
-
-def larray_du_cul #Cette def juste pour charger le array. Au cas où quelqu'un voudrait en charger un autre.
-	@handle = ["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau",
-		"@gaellombart","@bendarag","@AurelieLebelle","@julienduffe","@thomaspoupeau",
-		"@LilyRossignol","@ClairGuedon","@stephanieauguy","@claw_prolongeau","@_JulieMenard",
-		"@LColcomb","@Zlauwereys","@MeLonguet","@DorotheeLN","@NolwennCosson","@ADaboval","@Remibaldy",
-		"@bderveaux","@amandechap","@ELODIESOULIE","@nbongarcon","@HeloAb","@Panamorama","@gregplou",
-		"@BenoitBerthe","@LauraBruneau89","@Anthony_Lieures","@Sharonwaj","@mcsonkin","@pverduzier",
-		"@emiliel3","@Julien_MARION","@SophiFay","@bdelombre","@annalecerf","@AdriaBudry","@DejNikolic",
-		"@iJaffre","@CyrusleVirus","@GPardigon","@e_vallerey","@IsabelleSouquet","@AudeDavidRossi","@Yoann_Pa",
-		"@CeliaPenavaire","@perraultvincent","@cboulate","@JustineWeyl","@Paulinejacot","@juliechab",
-		"@aslechevallier","@phnou","@Seb_Pommier","@Alex_Bensaid","@GuillaumeGaven","@annelaurechouin",
-		"@Oliviader","@guerricp","@JMMarchaut","@cyceron","@gregory_raymond","@vhunsinger","@l_peillon",
-		"@fannyguinochet","@EAssayag","@KibweAdom","@YvonHerry","@JohanGarciajg","@saidlabidi","@lauranneprov",
-		"@LeaDavy","@francois_remy","@CGuicheteau","@FloMaillet","@m_perroud","@oBrunet_TSMF","@MoonVdc",
-		"@jc2taille","@NellyMoussu","@VirginK","@b_misa","@FabriceCouste","@barbara_prose","@lelia2m","@brunoaskenazi",
-		"@laurenechamp","@ysisbox","@juliengagliardi","@PierreLel","@kdeniau","@_TerraInc","@DominicArpin",
-		"@antoinfonteneau","@nanotousch","@jb_roch","@YaniKhezzar","@Anne_Bechet","@NCapart","@SamyBenNaceur",
-		"@Joumany","@Julietteraynal","@TGiraudet","@SaraTanit","@HappeFrederic","@antoinellorca","@michelpicot",
-		"@Sev_Ryne","@bobdobolino","@murdever","@YGrandmontagne","@Mnyo","@EdKOSCIANSKI","@tnoisette","@jankari",
-		"@delbello_rom","@rflechaux","@NadiaSorelli","@IT_Digital","@abarbaux","@PhilippeLeroy","@schaptal","@marionspee",
-		"@lisavignoli","@ChloeAeberhardt","@MartineJacot","@JuliaPascualita","@curieusedetout","@sgraveleau","@bif_o",
-		"@ElisaPineau","@zinebdryef","@apiquard","@pierrehaski","@StephanieDelmas","@Blandine_Garot","@vergara_i",
-		"@evan_lebastard","@SophieVclt","@OlivierLevrault","@alicedorgeval","@LouiseMalnoy","@alix_fx","@pierre_baudis",
-		"@LucMagoutier","@AgatheMuller","@SGianninelli","@PaulineBoyer33","@NaomiHalll","@romaindlx","@marionbr","@Burtschy",
-		"@JacobEtienne","@as_lizzani","@marie_simon","@LaureDaussy","@FabriceAmedeo","@LoubnaChlaikhy","@PlummerWilliam",
-		"@OlivierMarin1","@alaurefremont","@mwesfreid","@ChBaDe","@pmathon","@theobaldmarie","@Lnpagesy","@marclandre","@paoliniesther",
-		"@Feertchak","@JBLitzler","@GuillaumeErrard","@quentinperinel","@TristanQM","@mlbo","@constancejamet","@LoraTerrazas",
-		"@emiliegeffray","@Mathilde_Sd","@CaroPiquet","@DCanivez","@TIM_7375","@blandinelc","@ivanrioufol","@arthurberdah",
-		"@SarahLecoeuvre","@guillaume_gui","@DamienMercereau","@W_Chloe","@Assma_MD","@EugenieBastie","@HiTech_lexpress",
-		"@bcondominas","@Laurie_Z_","@jeanfrancgerard","@MathieuPagura","@BGUYF","@AlainPiffaretti","@AudreyKucinskas","@julienhory",
-		"@Pierrefalga","@TiphThuillier","@cdaniez","@LigerBaptiste","@D_Peras","@julie_dlb","@Fatiha_Temmouri","@julian2lamancha",
-		"@GaetaneDeljurie","@JulianMattei","@M_Vicuna","@DeBruynOlivier","@Nehed_Jendoubi","@antoine_grenapi","@ColonnaGen",
-		"@VictoriaGairin","@Clement_Lacombe","@TVigoureux","@MargauxObriot","@solinedelos","@RocheSabine","@dangerkens",
-		"@EdouardDutour","@MDondeyne","@DupuisNathalie1","@bouscarel","@Mathieu2jean","@Sophie_T_J","@laurentcalixte","@patrockwilliams",
-		"@PascaleKremer","@AlexJaquin","@LauraIsaaz","@cath_robin","@Del_Gautherin","@Isaduriez","@lucietuile","@AugeyBastien",
-		"@mcastagnet","@AminaKalache","@mvaudano","@CParrot","@ombelinetips","@_JoinLion","@BarbolosiRose","@ToiBruno1","@FloraClodic",
-		"@xjbdx","@AlexiaEy","@Emjy_STARK","@elcoco01","@rabilebon","@pflovens_","@FabriceFrossard","@MorganeSERRES","@MarjolaineKoch",
-		"@edgarsnow","@SRNLF","@CChassigneux","@KerinecMoran","@NassiraELM","@NewsRicard","@Sandreene","@Emilezrt","@Pierre_Do","@Micode",
-		"@CColumelli","@DavidAbiker","@ClementBergantz","@benjaminrabier","@celinekallmann","@edwyplenel","@C_Barbier","@JJBourdin_RMC",
-		"@LaurenceFerrari","@aslapix","@IsaMillet","@MaximeSwitek","@tomjoubert","@jszanchi","@roqueeva","@XavierBiseul","@florencesantrot",
-		"@AntoineCrochet","@freeman59","@MaudeML","@philippe_gulpi","@mathieum76","@kiouari","@imanemoustakir","@BenedicteMallet",
-		"@Emilie_Brouze","@antoinebarret","@_nicolasbocquet","@remibuhagiar","@CourretB","@AymericRobert","@miraelmartins","@pmaniere",
-		"@jesuisraphk","@David_Ingram","@pcelerier","@technomedia","@Geraldinedauver","@ThierryLabro","@Newsdusud","@nrauline","@gbregeras",
-		"@SCouasnonBFM","@actualites_nrv","@dimitrimoulins","@oli_aura","@FabieChiche","@Vincent_Raimblt","@ChristophGreuet","@PAlbuchay",
-		"@MarrauddesGrot","@vtalmon","@cedric","@olivierfrigara","@Julien_Jay","@LydiaBerroyer","@Shuua","@datisdaz","@Steuph","@ameliecharnay",
-		"@Bruno_LesNums","@LelloucheNico","@CciliaDiQuinzio","@Elodie_C","@SylvRolland","@Kocobe","@FL_Debes","@jdupontcalbo","@GarciaVictor_",
-		"@NicoRichaud","@RHoueix","@simottel","@DamienLicata","@annabelle_L","@Lea_Lejeune","@axel_deb","@marin_eben","@ptiberry","@MatthieuDelach",
-		"@sandrineca-assini","@benjaminferran","@ppgarcia75","@NotPatrick","@ivalerio","@FabienneSchmitt","@alexgoude","@JeromeColombain","@manhack",
-		"@Capucine_Cousin","@Fsorel","@oliviertesquet","@marjoriepaillon","@ginades","@PierreTran","@DelphineCuny","@reesmarc","@lauratenoudji",
-		"@ldupin","@carolinedescham","@Lucile_Quillet","@cgabizon","@Allocab","@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75",
-		"@maximeverner","@s_jourdain","@LoriHelloc"]
-	
 end
 
+#################### Méthodes ####################
 
-
-
-###################################################################################################
-##################################  Réponses aux questions  #######################################
-###################################################################################################
-
-
-# renvoie le nombre de compte contenus dans le tableau.
-def nbre_journaliste(mon_array)
-	puts "Le nombre de journaliste de votre tableau : #{mon_array.length}"
+# Méthode qui calcule le nombre d'entrée dans l'array.
+def table_size(table)
+	puts "Combien y a t'il de journalistes dans cet array ?"
+	sze = table.size
+	puts ">Il y a #{sze} journalistes dans le tableau"
 end
 
-
-#Fonction permettant de courcircuiter le fonctionnement de la méthode Integer()
-def is_numeric(o)
-	# repère si un charactère est un integer avec gestion de l'erreur.
-    true if Integer(o) rescue false
+# Méthode qui calcule le nombre de pseudo qui contiennent un #chiffre.
+def count_number(table)
+	puts "Combien d'handle contiennent un numéro ?"
+	count_number_ = table.grep(/\d/).count
+	puts ">Il y a #{count_number_} journalistes qui ont un pseudo twitter contenant au moins un chiffre"
 end
 
+# Méthode qui calcule le nombre de pseudo contenant 'aude'.
+def count_aude(table)
+	puts "Combien d'handle contiennent les 4 lettres du prénom 'Aude' à la suite (sans faire attention à la casse) ?"
+	count_aude_ = table.grep(/Aude/).count + table.grep(/aude/).count
+	puts ">Il y a #{count_aude_} comptes qui contiennent 'aude' dans leur pseudo."
+end
 
-# Méthode pour savoir si un compte contient un chiffre.
-def figure_inside(mon_array)
-	compteur = 0
-	#savoir combien de handle ont un chiffre
-	mon_array.each do |variable|
-		variable.each_char do |variable2|
-			 if is_numeric(variable2)
-			 	compteur += 1
-			 	break
+# Méthode qui cherche le nombre de pseudo commençant par une majuscule.
+def start_upcase(table)
+	puts "Combien commencent par une majuscule ?"
+	a = 0
+	table.each do |upper|
+		if upper[1]== upper[1].upcase
+			 a += 1
+		end
+	end
+	puts ">Il y a #{a} pseudo twitter commencent par une majuscule"
+end
+
+# Méthode qui compte le nombre d'entrée contenant une majuscule
+def count_upcase(table)
+	puts "Combien contiennent une majuscule ?"
+	count_upcase_ = table.grep(/[A-Z]/).count
+	puts ">Il y a #{count_upcase_} pseudo twitter contiennent une majuscule"
+end
+
+## Création de la méthode qui cherche le nombre d'underscore dans l'array entier.
+def count_underscores(table)
+	puts "Combien de _ dans tous les pseudos confondus ?"
+	a = 0
+	table.each do |underscore|
+		underscore.each_char do |underscore1|
+			 if underscore1== "_"
+			 	a += 1
 			 end
 		end
 	end
-	puts "#{compteur} journalistes ont un handle contenant au moins un chiffre"
-	return compteur
+	puts ">Il y a #{a} underscores rescensés dans le tableau."
 end
 
 
-############################################################
-######        HOW TO RAGE WHILE CODING ???            ######
-###### Just change the exercize's statement on the go ######
-######               (old version)                    ######
-############################################################
-
-# def howmany_aude(mon_array)
-# 	compteur = 0
-# 	mon_array.each do |variable|
-# 		if variable.partition("Aude")[1]=="Aude"
-# 			compteur += 1
-# 		end
-# 	end
-# 	puts "#{compteur}"
-# 	return compteur
-# end
-
-# New version : compte combien de fois la chaine "aude" apparait dans le tableau de comptes de journalistes.
-def howmany_aude(mon_array)
-	compteur = 0
-	mon_array.each do |variable|
-		variable = variable.downcase
-	    if variable.partition("aude")[1]=="aude"
-	    	compteur += 1
-    	end
-	end
-	puts "#{compteur} contiennent 'aude' dans le handle"
-	return compteur
+def table_sort(table)
+	puts "Trie la liste de handle par ordre alphabétique"
+	sorted_table = table.sort_by {|x| x.downcase}
+	puts ">Ci-dessous, les comptes triés par ordre alphabétique :"
+	puts sorted_table
 end
 
 
-# Combien de comptes commencent par une majuscule (charactère situé après le @)
-def startwith_upcase(mon_array)
-	compteur = 0
-	mon_array.each do |variable|
-		if variable[1]==variable[1].upcase
-			 compteur += 1
-		end
-	end
-	puts "#{compteur} démarrent avec une majuscule"
-	return compteur
+################ Réponses ################
+def perform
+	table_size(journalistes)
+	puts ""
+	count_number(journalistes)
+	puts ""
+	count_aude(journalistes)
+	puts ""
+	start_upcase(journalistes)
+	puts ""
+	count_upcase(journalistes)
+	puts ""
+	count_underscores(journalistes)
+	puts ""
+	table_sort(@twitter)
+	puts ""
 end
-
-
-# Compte combien de comptes comporte une majuscule quelque part.
-def include_upcase(mon_array)
-	compteur = 0
-	mon_array.each do |variable|
-		1.step(variable.length-1,1) do |i|
-			if variable[i]!="@" && variable[i] != "_" && !is_numeric(variable[i])
-				if variable[i]==variable[i].upcase
-					compteur +=1
-					break
-				end
-			end
-		end
-	end
-	puts "#{compteur} contiennent au moins une majuscule"
-	return compteur
-end
-
-
-# Compte combien de underscores sont présents dans le tableau...
-def howmany_underscores(mon_array)
-	#Attention on cherche combien il y a d'underscore /!\en tout/!\ dans le tableau.
-	compteur = 0
-	mon_array.each do |variable|
-		variable.each_char do |variable2|
-			 if variable2=="_"
-			 	compteur += 1
-			 end
-		end
-	end
-	puts "#{compteur} '_' rescensés"
-	return compteur
-end
-
-
-# Le tri de la mort : tri le tableau dans l'ordre alphabétique avec gestion de la casse.
-# la fonction renvoie aussi bien le tableau final que le puts de celui ci.
-def death_sort(mon_array)
-	mon_array = mon_array.sort_by {|x| x.downcase}
-	puts "voici votre tableau de journalistes trié : #{mon_array.sort_by {|x| x.downcase}}"
-	return mon_array
-end
-
-
-
-
-###################################################################################################
-############################################  Main  ###############################################
-###################################################################################################
-larray_du_cul
-nbre_journaliste(@handle)
-figure_inside(@handle)
-howmany_aude(@handle)
-startwith_upcase(@handle)
-include_upcase(@handle)
-howmany_underscores(@handle)
-death_sort(@handle)
-
-
-=begin
-puts journalist.length
-
-
-
-puts journalist.each.to_s.count("0" "1" "2" "3" "4" "5" "6" "7" "8" "9")
-
-class String
-  def extract_upper_case_letters
-    self.scan /\p{Upper}/
-  end
-end
-
-
-puts journalist.each.extract_upper_case_letters
-=end
+perform
