@@ -33,7 +33,7 @@ puts
 
 #puts @journalist.select.count {|item| item(/[[:upper:]]/)}
 
-puts @journalist.select.count {|item| item.slice(1) =~ /[A-Z]/}
+#puts @journalist.select.count {|item| item.slice(1) =~ /[A-Z]/}
 
 =begin
 def un
