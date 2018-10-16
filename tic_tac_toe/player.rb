@@ -1,7 +1,9 @@
 class Player
-  #TO DO : la classe a 2 attr_accessor, son nom, sa valeur (X ou O). Elle a un attr_writer : il a gagné ?
+  attr_accessor :firstname, :type
 
-
-  def initialize
-    #TO DO : doit régler son nom, sa valeur, son état de victoire
+  def initialize(firstname, type)
+    @firstname = firstname
+    @type = type
+    puts "#{@firstname}, tu joueras avec les #{@type}"
   end
+end

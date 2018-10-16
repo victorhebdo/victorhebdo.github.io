@@ -1,7 +1,7 @@
 # THP_S03_Mardi
 
 ## Contenu :
-*  main.rb :    permet de lancer le jeu dans son terminal
+*  app.rb :    permet de lancer le jeu dans son terminal
 *  game.rb :    la classe qui contrôle tout
 *  player.rb :  la classe qui gère les joueurs
 *  boardcase.rb : la classe qui gère chaque case du board
@@ -14,7 +14,7 @@ Les commentaires sont présents dans le code pour aider. mais voici la liste de 
 
 ## Pour executer ce code :
 ```
-   $> ruby main.rb
+   $> ruby app.rb
 ```
 
 permet de lancer le fichier en question et de jouer dans le terminal.
